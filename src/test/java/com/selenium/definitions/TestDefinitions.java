@@ -61,7 +61,7 @@ public class TestDefinitions {
     @Then("Select See All Categories")
     public void selectSeeAllCategories() {
         WebElement categoriesSidebar = PageFactory.initElements(webDriver, SeeAllCategoriesLink.class).clickSeeAllCategoriesLink()
-                .waitUntilResultShows(waitForSeconds(webDriver, 1));
+                .waitUntilResultShows(waitForSeconds(webDriver, 3));
         assertNotNull(categoriesSidebar);
     }
 }

@@ -1,7 +1,7 @@
 Feature: Ebay iPhone Search
 
   Background: To Launch the browser
-    Given SetupEnv with browser "chrome"
+    Given SetupEnv with browser
     Given Launch the browser
 
   Scenario: Search for Cucumber in Google
